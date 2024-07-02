@@ -1,0 +1,53 @@
+<!-- BAşak Şehriban Doğan 2107231058 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="randevu.css">
+</head>
+<body>
+    <header>
+        <h1>Randevu Al</h1>
+        <a class="login-button" href="giris.html"> Giriş Yap</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="anasayfa.html">Ana Sayfa</a></li>
+            <li><a href="iletişim.html">İletişim</a></li>
+            <li>Randevu</li>
+            <li><a href="doktorlar.html">Doktorlar</a></li>
+        </ul>
+    </nav>
+    <section class="content">
+        <h2>Randevu Al</h2>
+        <form>
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">E-Posta Adresiniz:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="date">Randevu Tarihi:</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="doctor">Doktor Seçimi:</label>
+            <select id="doctor" name="doctor">
+                <option value="dr-başak">Dr. Başak</option>
+                <option value="dr-nihat">Dr. Nihat</option>
+                <option value="dr-furkan">Dr. Furkan</option>
+            </select><br><br>
+            <script>
+                var today = new Date().toISOString().split('T')[0]; 
+                document.getElementById("date").setAttribute("min", today);
+            </script>
+
+            <input type="submit" value="Randevu Al">
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Hastane Otomasyonu</p>
+    </footer>
+</body>
+</html>

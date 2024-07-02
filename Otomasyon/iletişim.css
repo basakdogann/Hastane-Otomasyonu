@@ -1,0 +1,173 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+   
+}
+
+header {
+    background-color: #b31515;
+    color: white;
+    text-align: center;
+    padding: 20px;
+   
+}
+header h1:hover {
+    color: rgb(49, 84, 124); /* Başlık rengi değişim animasyonu */
+}
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #16ff8a;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* nav { 
+     background-color: #333; 
+    color: white;
+    text-align: center;
+     padding: 10px; */
+    
+
+nav {
+     background-color: #333; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0,3s; /* Metin rengi değişim animasyonu */
+}
+
+
+
+
+
+.content {
+    padding: 20px;
+   
+}
+
+h1, h2, h3 {
+    transition: color 0.3s; 
+}
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* .content ul { 
+    margin-left: 20px;
+
+}*/
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content ul li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
+
+
+footer {
+    background-color:#f2f2f2;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  
+}
+
+body:hover {
+    background-color: #f2f2f2;
+}
+
+
+header h1:hover {
+    box-shadow: 0 0 10px rgba(207, 34, 34, 0.5);
+}
+.contact{
+    background: #fff;
+}
+
+.contact .row{
+    display: flex;
+    
+ 
+    flex-wrap:wrap;
+    gap:1rem;
+}
+.contact .row .map{
+    flex:1 1 45rem;
+    width:100%;
+    object-fit:cover;
+}
+.contact .row form{
+    flex:1 1 45rem;
+    padding:50px 20px;
+   text-align: center;
+}
+.contact .row form h3{
+  text-transform:uppercase;
+  font-size:35px;
+ 
+  color:black;
+}
+.contact .row form .inputBox{
+   display:flex;
+   align-items: center;
+   margin:20px 0;
+   border:var(--black-color);
+  
+}
+.contact .row form .inputBox i{
+    color:#ffff;
+    font-size:20px;
+    padding-left:20px;
+}
+.contact .row form .inputBox input{
+    width:100%;
+    padding:10px 10px;
+    font-size:17px;
+    color:#fff;
+    background-color:transparent;
+    text-transform: none;
+ 
+}
+
+.share a{
+    width:50px;
+    height:50px;
+    line-height:50px;
+    font-size:20px;
+    border:var(--border);
+    border-radius: 50%;
+    margin:3px;
+    padding: 30px 150px;
+    color:rgb(255, 255, 255); 
+    padding: 10px;
+   
+ 
+}

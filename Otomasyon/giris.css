@@ -1,0 +1,148 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s; /* Arka plan rengi değişim animasyonu */
+}
+
+header {
+    background-color: #b31515;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s; /* Başlık arka plan rengi değişim animasyonu */
+}
+header h1:hover {
+    color: rgb(49, 84, 124); /* Başlık rengi değişim animasyonu */
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0,3s; /* Metin rengi değişim animasyonu */
+}
+
+nav a:hover {
+    color: #16ff8a; /* Bağlantı rengi değişim animasyonu */
+}
+
+.content {
+    padding: 20px;
+    transition: transform 0.3s; /* İçerik alanının dönme animasyonu */
+}
+
+h1, h2, h3 {
+    transition: color 0.3s; /* Başlık renk değişim animasyonu */
+}
+
+.content h2:hover, .content h3:hover {
+    color: #3498db; /* Başlık rengi değişim animasyonu */
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content ul {
+    margin-left: 20px;
+    transition: transform 0.3s; /* Liste öğelerinin dönme animasyonu */
+}
+
+.content ul:hover {
+    transform: rotate(10deg); /* Liste öğelerinin dönme animasyonu */
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s; /* Altbilgi arka plan rengi değişim animasyonu */
+}
+body {
+    transition: background-color 0.3s;
+}
+
+body:hover {
+    background-color: #95a8a5;
+}
+/* Başlıkta gölge efekti animasyonu */
+header h1 {
+    transition: box-shadow 0.3s;
+}
+
+header h1:hover {
+    box-shadow: 0 0 10px rgba(207, 34, 34, 0.5);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    color: #3498db;
+}
+
+label {
+    font-weight: bold;
+}
+
+form {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2288c0;
+}
+
+.register-link {
+    margin-top: 15px;
+}

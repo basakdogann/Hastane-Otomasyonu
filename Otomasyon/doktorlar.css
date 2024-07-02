@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b31515;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: background-color 0.3s;
+}
+.login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #16ff8a;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #333;
+    color: #16ff8a;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    transition: transform 0.3s; 
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s; 
+}
+
+nav a:hover {
+    color: #3498db; 
+}
+
+.content {
+    padding: 20px;
+    transition: transform 0.3s; 
+}
+
+h1, h2, h3 {
+    transition: color 0.3s; 
+}
+
+.content h2:hover, .content h3:hover {
+    color: #3498db; 
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s; 
+}
+
+
+
+.content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.content ul li {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    vertical-align: top;
+}
